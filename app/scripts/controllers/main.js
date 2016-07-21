@@ -16,7 +16,7 @@ angular.module('andigitalApp')
         apiFactory.getRecommended($scope.text)
         .then(function (response) {
             $scope.venues = response.data.response.venues;
-            
+            console.log($scope.venues);
             // no results
             if ($scope.venues.length == 0) {
             	$scope.messageText = 'No results';
