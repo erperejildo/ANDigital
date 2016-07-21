@@ -6,7 +6,7 @@ Technical exercise for <a href="https://andigital.com/" target="_blank">ANDigita
 
 Download this repository and run `npm install && bower install`.
 After installations run `grunt build` for building and `grunt serve` for preview.<br>
-You can also test the app on your Android device runing `cordova run android` (IOS is availabe as well but not tested) or create an apk running `grunt build && cordova build`. You apk will be created in `platforms\android\build\outputs\apk\android-debug.apk`.
+You can also test the app on your Android device runing `cordova run android` (IOS is availabe as well but not tested) or create an apk running `cordova build`. You apk will be created in `platforms\android\build\outputs\apk\android-debug.apk` (before Cordova commands you'd need to run `grunt build`).
 
 You can also see a deployed example here:<br>
 http://rodriguezdaniel.com/apps/ANDigital/
