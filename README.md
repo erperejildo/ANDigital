@@ -5,9 +5,10 @@ Technical exercise for <a href="https://andigital.com/" target="_blank">ANDigita
 ## Build & development
 
 Download this repository and run `npm install && bower install`.
-After installations run `grunt` for building and `grunt serve` for preview.
+After installations run `grunt build` for building and `grunt serve` for preview.<br>
+You can also test the app on your Android device runing `cordova run android` (IOS is availabe as well but not tested) or create an apk running `cordova build`. You apk will be created in `platforms\android\build\outputs\apk\android-debug.apk` (before Cordova commands you'd need to run `grunt build`).
 
-You can also see an example deployed here:
+You can also see a deployed example here:<br>
 http://rodriguezdaniel.com/apps/ANDigital/
 
 ## Features
@@ -15,9 +16,11 @@ http://rodriguezdaniel.com/apps/ANDigital/
 - Loading and error control (you can modify API url to see errors)
 - Service for API calls.
 - Venues directive to show results.
+- Created Cordova project to test app on devices.
+- Created apk: http://rodriguezdaniel.com/apps/ANDigital/ANDigital.apk
 
 ## Technologies used
-AngularJS, Yeoman, Grunt, NodeJS, CSS3 (Sass), Git.
+AngularJS, Yeoman, Grunt, NodeJS, Cordova, CSS3 (Sass), Git.
 
 ## Problems found
 
