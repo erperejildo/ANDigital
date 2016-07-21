@@ -8,7 +8,7 @@ Download this repository and run `npm install && bower install`.
 After installations run `grunt build` for building and `grunt serve` for preview.<br>
 You can also test the app on your Android device runing `cordova run android` (IOS is availabe as well but not tested).
 
-You can also see an example deployed here:
+You can also see an example deployed here:<br>
 http://rodriguezdaniel.com/apps/ANDigital/
 
 ## Features
