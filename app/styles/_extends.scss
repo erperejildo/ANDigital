@@ -20,3 +20,10 @@ $shadow2: 0 3px 6px rgba(116,116,116,0.16), 0 3px 6px rgba(116,116,116,0.23);
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  @include transform(translate(-50%,-50%));
+}

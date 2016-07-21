@@ -10,21 +10,30 @@
 angular.module('andigitalApp')
   .controller('MainCtrl', function ($scope, apiFactory) {
 
+  	$scope.messageText = 'Search something';
+
   	function getRecommended() {
         apiFactory.getRecommended($scope.text)
         .then(function (response) {
             $scope.venues = response.data.response.venues;
-            console.log($scope.venues);
+            
+            // no results
+            if ($scope.venues.length == 0) {
+            	$scope.messageText = 'No results';
+            	$scope.message = false;
+            }
+
+            $scope.loading = false;
         }, function (error) {
-            console.log(error);
+            $scope.loading = false;
+            $scope.error   = true;
         });
     };
 
-    // MOCKUP
-    $scope.text = 'sushi';
-    getRecommended();
-
     $scope.search = function() {
+    	$scope.message  = true;
+    	$scope.loading  = true;
+    	$scope.error    = false;
     	getRecommended();
     };
 
