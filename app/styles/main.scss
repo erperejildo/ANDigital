@@ -38,13 +38,15 @@ body {
 
 #venues {
   overflow: auto;
-  max-width: 800px;
+  max-width: 900px;
   margin: 10px auto;
 
   .venue {
-    width: 33.33%;
+    width: 25%;
     float: left;
     padding: 10px;
+    margin: auto;
+    min-height: 200px;
     @extend .border-box;
   }
 
@@ -66,9 +68,16 @@ body {
     font-size: 12px;
   }
 
-  .menu {
+  .link {
     display: block;
-    margin: 10px 0;
+    border-top: 1px solid #eee;
+    padding: 5px;
+    text-align: center;
+
+    &:first-of-type {
+      border-top: none;
+      
+    }
   }
 
   .phone {
@@ -84,7 +93,7 @@ body {
 }
 
 // Mobile
-@media (max-width: 430px) {
+@media (max-width: 500px) {
   #search-box {
     input {
       width: 100%;
@@ -95,6 +104,13 @@ body {
       height: 30px;
       width: 100%;
       display: block;
+    }
+  }
+
+  #venues {
+    .venue {
+      width: 100%;
+      min-height: auto;
     }
   }
 }

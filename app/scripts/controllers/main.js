@@ -20,6 +20,10 @@ angular.module('andigitalApp')
         });
     };
 
+    // MOCKUP
+    $scope.text = 'sushi';
+    getRecommended();
+
     $scope.search = function() {
     	getRecommended();
     };
