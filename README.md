@@ -29,5 +29,5 @@ icon.prefix: "https://ss3.4sqi.net/img/categories_v2/food/sushi_"<br>
 icon.suffix: ".png"<br>
 icon.shortName: ""4bf58dd8d48988d1d2941735""
 <p>
-Something like "https://ss3.4sqi.net/img/categories_v2/food/sushi_4bf58dd8d48988d1d2941735.png".<br>
-This thumb from website has different url:<br> https://irs3.4sqi.net/img/general/300x300/20896080_v6VSRbH7s4Df4Hor7qL6d1RKraMbwYPFf4OwZaKthgw.jpg
+Something like "https://ss3.4sqi.net/img/categories_v2/food/sushi_4bf58dd8d48988d1d2941735.png" doesn't work.<br>
+This thumb from their website has different url:<br> https://irs3.4sqi.net/img/general/300x300/20896080_v6VSRbH7s4Df4Hor7qL6d1RKraMbwYPFf4OwZaKthgw.jpg
