@@ -53,10 +53,33 @@ body {
     @include border-radius(5px);
     background-color: #fff;
     padding: 10px;
+    overflow: auto;
   }
 
   .name {
     font-size: 18px;
+    color: #2d5be3;
+  }
+
+  .address {
+    color: grey;
+    font-size: 12px;
+  }
+
+  .menu {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .phone {
+    @extend .address;
+  }
+
+  .twitter {
+    width: 20px;
+    display: block;
+    float: right;
+    margin-left: 10px;
   }
 }
 
