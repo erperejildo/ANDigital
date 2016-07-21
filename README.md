@@ -1,4 +1,4 @@
-# andigital
+# ANDigital
 
 Technical exercise for <a href="https://andigital.com/" target="_blank">ANDigital</div>
 
