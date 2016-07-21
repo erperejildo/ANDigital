@@ -32,10 +32,10 @@
 
 @mixin animation($val) {
 	animation: $val;
-	-webkit-animation: $val;
 	-moz-animation: $val;
 	-ms-animation: $val;
 	-o-animation: $val;
+	-webkit-animation: $val;
 }
 
 @mixin keyframes($animationName) {

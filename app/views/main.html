@@ -2,7 +2,13 @@
   <form ng-submit="search()">
     <input type="text" placeholder="I'm looking..." ng-model="text" />
   </form>
-  <img src="images/search.svg" ng-click="search()" />
+  <img id="search" src="images/search.svg" ng-click="search()" />
+  <div id="order" ng-show="showOrder">
+    <span>Order by stats:</span>
+    <div ng-click="orderBy('checkinsCount')"><img src="images/arrow.svg" ng-class="{'show':order == 'checkinsCount', 'up':up}" />Checkins</div>
+    <div ng-click="orderBy('tipCount')"><img src="images/arrow.svg" ng-class="{'show':order == 'tipCount', 'up':up}" />Tip</div>
+    <div ng-click="orderBy('usersCount')"><img src="images/arrow.svg" ng-class="{'show':order == 'usersCount', 'up':up}" />Users</div>
+  </div>
 </div>
 
 <div id="message" ng-hide="message">{{messageText}}</div>
@@ -11,4 +17,6 @@
 
 <div id="spinner" ng-show="loading"><div class='uil-ring-css'><div></div></div></div>
 
-<venue></venue>
+<div id="venues">
+  <div class="venue" ng-repeat="venue in venues | orderBy:orderVenue"><venue></venue></div>
+</div>
