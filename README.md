@@ -15,9 +15,11 @@ http://rodriguezdaniel.com/apps/ANDigital/
 - Loading and error control (you can modify API url to see errors)
 - Service for API calls.
 - Venues directive to show results.
+- Created Cordova project to test app on devices.
+- Created apk: http://rodriguezdaniel.com/apps/ANDigital/ANDigital.apk
 
 ## Technologies used
-AngularJS, Yeoman, Grunt, NodeJS, CSS3 (Sass), Git.
+AngularJS, Yeoman, Grunt, NodeJS, Cordova, CSS3 (Sass), Git.
 
 ## Problems found
 
