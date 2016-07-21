@@ -8,10 +8,18 @@
  * Controller of the andigitalApp
  */
 angular.module('andigitalApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, apiFactory) {
+    
+  	function getRecommended() {
+        apiFactory.getRecommended()
+        .then(function (response) {
+            $scope.venues = response.data.response.venues;
+            console.log($scope.venues);
+        }, function (error) {
+            console.log(error);
+        });
+    }
+
+    getRecommended();
+
   });

@@ -1,0 +1,17 @@
+html, body, *, *:after, *:before {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+a {
+	text-decoration: none;
+
+	&:link, &:visited, &:hover, &:active {
+	    color: inherit;
+	}
+}
