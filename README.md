@@ -12,7 +12,9 @@ http://rodriguezdaniel.com/apps/ANDigital/
 
 ## Features
 - Responsive and material dessign
-- Loading and error control (you can modify API url to see errors).
+- Loading and error control (you can modify API url to see errors)
+- Service for API calls.
+- Venues directive to show results.
 
 ## Technologies used
 AngularJS, Yeoman, Grunt, NodeJS, CSS3 (Sass), Git.
