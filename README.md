@@ -5,7 +5,8 @@ Technical exercise for <a href="https://andigital.com/" target="_blank">ANDigita
 ## Build & development
 
 Download this repository and run `npm install && bower install`.
-After installations run `grunt` for building and `grunt serve` for preview.
+After installations run `grunt build` for building and `grunt serve` for preview.<br>
+You can also test the app on your Android device runing `cordova run android` (IOS is availabe as well but not tested).
 
 You can also see an example deployed here:
 http://rodriguezdaniel.com/apps/ANDigital/
