@@ -10,6 +10,10 @@ After installations run `grunt` for building and `grunt serve` for preview.
 You can also see an example deployed here:
 http://rodriguezdaniel.com/apps/ANDigital/
 
+## Features
+- Responsive and material dessign
+- Loading and error control (you can modify API url to see errors).
+
 ## Technologies used
 AngularJS, Yeoman, Grunt, NodeJS, CSS3 (Sass), Git.
 
