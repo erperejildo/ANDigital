@@ -8,9 +8,6 @@ Download this repository and run `npm install && bower install`.
 After installations run `grunt build` for building and `grunt serve` to run server with Livereload.<br>
 You can also test the app on your Android device (IOS is availabe as well but not tested) connecting it by USB and runing `cordova run android` or create an apk running `cordova build`. You apk will be created in `platforms\android\build\outputs\apk\android-debug.apk` (before Cordova commands you will need to run `grunt build`).
 
-You can also see a deployed example here:<br>
-http://rodriguezdaniel.com/apps/ANDigital/
-
 ## Features
 - Responsive and material dessign
 - Loading and error control (you can modify API url to see errors)
